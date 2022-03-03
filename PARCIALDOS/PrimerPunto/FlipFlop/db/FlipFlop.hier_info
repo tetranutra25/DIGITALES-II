@@ -1,0 +1,11 @@
+|FlipFlop
+Y <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+X => inst.IN1
+CLK => inst2.CLK
+CLK => inst38.CLK
+CLK => inst4.CLK
+Qjk <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+QT <= inst38.DB_MAX_OUTPUT_PORT_TYPE
+QD <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/VHDL/PARCIALDOS/PrimerPunto/FlipFlop/FlipFlop.bdf
+source_file = 1, C:/VHDL/PARCIALDOS/PrimerPunto/FlipFlop/Waveform1.vwf
+source_file = 1, C:/VHDL/PARCIALDOS/PrimerPunto/FlipFlop/db/FlipFlop.cbx.xml
+design_name = FlipFlop
+instance = comp, \CLK~input , CLK~input, FlipFlop, 1
+instance = comp, \X~input , X~input, FlipFlop, 1
+instance = comp, \CLK~inputclkctrl , CLK~inputclkctrl, FlipFlop, 1
+instance = comp, \Y~output , Y~output, FlipFlop, 1
+instance = comp, \Qjk~output , Qjk~output, FlipFlop, 1
+instance = comp, \QT~output , QT~output, FlipFlop, 1
+instance = comp, \QD~output , QD~output, FlipFlop, 1
+instance = comp, \inst2~0 , inst2~0, FlipFlop, 1
+instance = comp, \inst38~0 , inst38~0, FlipFlop, 1
+instance = comp, \inst4~0 , inst4~0, FlipFlop, 1

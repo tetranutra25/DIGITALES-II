@@ -1,0 +1,125 @@
+|SumadorCuatroBits
+S0 <= FullAdder:inst7.Sum
+A0 => FullAdder:inst7.A
+S => inst8.IN0
+S => inst6.IN0
+S => inst4.IN0
+S => inst2.IN0
+B0 => inst8.IN1
+Cin => FullAdder:inst7.Cin
+S1 <= FullAdder:inst5.Sum
+A1 => FullAdder:inst5.A
+B1 => inst6.IN1
+S2 <= FullAdder:inst3.Sum
+A2 => FullAdder:inst3.A
+B2 => inst4.IN1
+S3 <= FullAdder:inst.Sum
+A3 => FullAdder:inst.A
+B3 => inst2.IN1
+C4 <= FullAdder:inst.Cout
+
+
+|SumadorCuatroBits|FullAdder:inst7
+A => semisumadores:b2v_inst1.A
+B => semisumadores:b2v_inst1.B
+Cin => semisumadores:b2v_inst.B
+Sum <= semisumadores:b2v_inst.Suma
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumadorCuatroBits|FullAdder:inst7|semisumadores:b2v_inst
+A => Suma.IN0
+A => Acarreo.IN0
+B => Suma.IN1
+B => Acarreo.IN1
+Suma <= Suma.DB_MAX_OUTPUT_PORT_TYPE
+Acarreo <= Acarreo.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumadorCuatroBits|FullAdder:inst7|semisumadores:b2v_inst1
+A => Suma.IN0
+A => Acarreo.IN0
+B => Suma.IN1
+B => Acarreo.IN1
+Suma <= Suma.DB_MAX_OUTPUT_PORT_TYPE
+Acarreo <= Acarreo.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumadorCuatroBits|FullAdder:inst5
+A => semisumadores:b2v_inst1.A
+B => semisumadores:b2v_inst1.B
+Cin => semisumadores:b2v_inst.B
+Sum <= semisumadores:b2v_inst.Suma
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumadorCuatroBits|FullAdder:inst5|semisumadores:b2v_inst
+A => Suma.IN0
+A => Acarreo.IN0
+B => Suma.IN1
+B => Acarreo.IN1
+Suma <= Suma.DB_MAX_OUTPUT_PORT_TYPE
+Acarreo <= Acarreo.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumadorCuatroBits|FullAdder:inst5|semisumadores:b2v_inst1
+A => Suma.IN0
+A => Acarreo.IN0
+B => Suma.IN1
+B => Acarreo.IN1
+Suma <= Suma.DB_MAX_OUTPUT_PORT_TYPE
+Acarreo <= Acarreo.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumadorCuatroBits|FullAdder:inst3
+A => semisumadores:b2v_inst1.A
+B => semisumadores:b2v_inst1.B
+Cin => semisumadores:b2v_inst.B
+Sum <= semisumadores:b2v_inst.Suma
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumadorCuatroBits|FullAdder:inst3|semisumadores:b2v_inst
+A => Suma.IN0
+A => Acarreo.IN0
+B => Suma.IN1
+B => Acarreo.IN1
+Suma <= Suma.DB_MAX_OUTPUT_PORT_TYPE
+Acarreo <= Acarreo.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumadorCuatroBits|FullAdder:inst3|semisumadores:b2v_inst1
+A => Suma.IN0
+A => Acarreo.IN0
+B => Suma.IN1
+B => Acarreo.IN1
+Suma <= Suma.DB_MAX_OUTPUT_PORT_TYPE
+Acarreo <= Acarreo.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumadorCuatroBits|FullAdder:inst
+A => semisumadores:b2v_inst1.A
+B => semisumadores:b2v_inst1.B
+Cin => semisumadores:b2v_inst.B
+Sum <= semisumadores:b2v_inst.Suma
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumadorCuatroBits|FullAdder:inst|semisumadores:b2v_inst
+A => Suma.IN0
+A => Acarreo.IN0
+B => Suma.IN1
+B => Acarreo.IN1
+Suma <= Suma.DB_MAX_OUTPUT_PORT_TYPE
+Acarreo <= Acarreo.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SumadorCuatroBits|FullAdder:inst|semisumadores:b2v_inst1
+A => Suma.IN0
+A => Acarreo.IN0
+B => Suma.IN1
+B => Acarreo.IN1
+Suma <= Suma.DB_MAX_OUTPUT_PORT_TYPE
+Acarreo <= Acarreo.DB_MAX_OUTPUT_PORT_TYPE
+
+

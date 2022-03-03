@@ -1,0 +1,161 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus II 64-Bit"
+// VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
+
+// DATE "03/01/2022 16:30:58"
+
+// 
+// Device: Altera EP3C16F484C6 Package FBGA484
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module COMPRIMIDO (
+	E3,
+	F3,
+	F2,
+	F1,
+	F0,
+	E4);
+output 	E3;
+input 	F3;
+input 	F2;
+input 	F1;
+input 	F0;
+output 	E4;
+
+// Design Ports Information
+// E3	=>  Location: PIN_J3,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// F3	=>  Location: PIN_E3,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// F2	=>  Location: PIN_H7,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// E4	=>  Location: PIN_H1,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// F1	=>  Location: PIN_J7,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// F0	=>  Location: PIN_G5,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \F3~input_o ;
+wire \F2~input_o ;
+wire \E3~output_o ;
+wire \E4~output_o ;
+wire \F0~input_o ;
+wire \F1~input_o ;
+wire \inst85|X~combout ;
+
+
+// Location: IOOBUF_X0_Y21_N23
+cycloneiii_io_obuf \E3~output (
+	.i(\inst85|X~combout ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\E3~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \E3~output .bus_hold = "false";
+defparam \E3~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X0_Y21_N16
+cycloneiii_io_obuf \E4~output (
+	.i(gnd),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\E4~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \E4~output .bus_hold = "false";
+defparam \E4~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X0_Y27_N22
+cycloneiii_io_ibuf \F0~input (
+	.i(F0),
+	.ibar(gnd),
+	.o(\F0~input_o ));
+// synopsys translate_off
+defparam \F0~input .bus_hold = "false";
+defparam \F0~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X0_Y22_N15
+cycloneiii_io_ibuf \F1~input (
+	.i(F1),
+	.ibar(gnd),
+	.o(\F1~input_o ));
+// synopsys translate_off
+defparam \F1~input .bus_hold = "false";
+defparam \F1~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: LCCOMB_X1_Y22_N24
+cycloneiii_lcell_comb \inst85|X (
+// Equation(s):
+// \inst85|X~combout  = (\F0~input_o ) # (\F1~input_o )
+
+	.dataa(gnd),
+	.datab(gnd),
+	.datac(\F0~input_o ),
+	.datad(\F1~input_o ),
+	.cin(gnd),
+	.combout(\inst85|X~combout ),
+	.cout());
+// synopsys translate_off
+defparam \inst85|X .lut_mask = 16'hFFF0;
+defparam \inst85|X .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: IOIBUF_X0_Y26_N8
+cycloneiii_io_ibuf \F3~input (
+	.i(F3),
+	.ibar(gnd),
+	.o(\F3~input_o ));
+// synopsys translate_off
+defparam \F3~input .bus_hold = "false";
+defparam \F3~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X0_Y25_N15
+cycloneiii_io_ibuf \F2~input (
+	.i(F2),
+	.ibar(gnd),
+	.o(\F2~input_o ));
+// synopsys translate_off
+defparam \F2~input .bus_hold = "false";
+defparam \F2~input .simulate_z_as = "z";
+// synopsys translate_on
+
+assign E3 = \E3~output_o ;
+
+assign E4 = \E4~output_o ;
+
+endmodule

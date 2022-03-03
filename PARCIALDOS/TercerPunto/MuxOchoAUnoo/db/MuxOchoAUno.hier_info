@@ -1,0 +1,27 @@
+|MuxOchoAUno
+Y1 <= inst1001.DB_MAX_OUTPUT_PORT_TYPE
+I0 => inst14.IN0
+A3 => inst11.IN0
+A3 => inst19.IN1
+A3 => inst18.IN1
+A3 => inst20.IN1
+A3 => inst21.IN1
+A4 => inst13.IN0
+A4 => inst16.IN2
+A4 => inst17.IN2
+A4 => inst20.IN2
+A4 => inst21.IN2
+A5 => inst12.IN0
+A5 => inst15.IN3
+A5 => inst17.IN3
+A5 => inst19.IN3
+A5 => inst21.IN3
+I2 => inst16.IN0
+I1 => inst15.IN0
+I3 => inst17.IN0
+I5 => inst19.IN0
+I4 => inst18.IN0
+I6 => inst20.IN0
+I7 => inst21.IN0
+
+

@@ -1,0 +1,20 @@
+|MuxCuadruple
+Y0 <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+B0 => inst9.IN0
+S => inst9.IN1
+S => inst56.IN0
+S => inst1.IN1
+S => inst5.IN1
+S => inst13.IN1
+A0 => inst8.IN0
+Y1 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+B1 => inst1.IN0
+A1 => inst.IN0
+Y2 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+B2 => inst5.IN0
+A2 => inst4.IN0
+Y3 <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+B3 => inst13.IN0
+A3 => inst12.IN0
+
+

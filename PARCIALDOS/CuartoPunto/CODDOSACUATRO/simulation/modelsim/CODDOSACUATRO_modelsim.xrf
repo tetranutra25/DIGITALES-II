@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/VHDL/PARCIALDOS/CuartoPunto/CODDOSACUATRO/CODDOSACUATRO.bdf
+source_file = 1, C:/VHDL/PARCIALDOS/CuartoPunto/CODDOSACUATRO/Waveform.vwf
+source_file = 1, C:/VHDL/PARCIALDOS/CuartoPunto/CODDOSACUATRO/db/CODDOSACUATRO.cbx.xml
+design_name = CODDOSACUATRO
+instance = comp, \X~output , X~output, CODDOSACUATRO, 1
+instance = comp, \Y~output , Y~output, CODDOSACUATRO, 1
+instance = comp, \D3~input , D3~input, CODDOSACUATRO, 1
+instance = comp, \D2~input , D2~input, CODDOSACUATRO, 1
+instance = comp, \D1~input , D1~input, CODDOSACUATRO, 1
+instance = comp, \D0~input , D0~input, CODDOSACUATRO, 1

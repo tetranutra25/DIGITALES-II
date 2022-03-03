@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\VHDL\PARCIALDOS\PrimerPunto\FlipFlop\simulation\qsim
+vFlipFlop
+Z1 !s100 <30M[:fPQ8GI[YWKfW39V1
+Z2 IoEcEHz7I7@Nijcfbc]<J]3
+Z3 VaVfAdS1k7H14`2GW2CM0@2
+Z4 dC:\VHDL\PARCIALDOS\PrimerPunto\FlipFlop\simulation\qsim
+Z5 w1646085524
+Z6 8FlipFlop.vo
+Z7 FFlipFlop.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|FlipFlop.vo|
+Z10 o-work work -O0
+Z11 n@flip@flop
+!i10b 1
+!s85 0
+Z12 !s108 1646085525.716000
+Z13 !s107 FlipFlop.vo|
+!s101 -O0
+vFlipFlop_vlg_check_tst
+!i10b 1
+Z14 !s100 Ke>k;oCHWYPhChIT1BKkj2
+Z15 IH6PW<O<UnXJ87aO`DHCSK3
+Z16 VXSkCAHFj2=GcKH_:DDM`z1
+R4
+R5
+Z17 8FlipFlop.vt
+Z18 FFlipFlop.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z19 !s108 1646085525.810000
+Z20 !s107 FlipFlop.vt|
+Z21 !s90 -work|work|FlipFlop.vt|
+!s101 -O0
+R10
+Z22 n@flip@flop_vlg_check_tst
+vFlipFlop_vlg_sample_tst
+!i10b 1
+Z23 !s100 Dnk@k=45cO[DOO^L@olcM1
+Z24 IaI>V=RON1FRn7D2EKeZeV1
+Z25 Vh^O8jo2V4G4miknlAW6_91
+R4
+R5
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+Z26 n@flip@flop_vlg_sample_tst
+vFlipFlop_vlg_vec_tst
+!i10b 1
+Z27 !s100 db@lj_^Wh[E4VM[[QdDdn2
+Z28 Ie[1f4Te0P^7O25KnJUzO62
+Z29 V5[?S:T:LNeBi3jNn8FDRd2
+R4
+R5
+R17
+R18
+Z30 L0 235
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+Z31 n@flip@flop_vlg_vec_tst

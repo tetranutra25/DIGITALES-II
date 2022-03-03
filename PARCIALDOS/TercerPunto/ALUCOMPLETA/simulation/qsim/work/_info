@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\VHDL\PARCIALDOS\TercerPunto\ALUCOMPLETA\simulation\qsim
+vALUCOMPLETA
+Z1 !s100 haBk>9Rai18h6fnP]gFTQ3
+Z2 I@j0<11B9iOOo0?YBJ80c41
+Z3 VcRVVmT6F>>Ykmo?Tk3KMd3
+Z4 dC:\VHDL\PARCIALDOS\TercerPunto\ALUCOMPLETA\simulation\qsim
+Z5 w1646088580
+Z6 8ALUCOMPLETA.vo
+Z7 FALUCOMPLETA.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|ALUCOMPLETA.vo|
+Z10 o-work work -O0
+Z11 n@a@l@u@c@o@m@p@l@e@t@a
+!i10b 1
+!s85 0
+Z12 !s108 1646088580.892000
+Z13 !s107 ALUCOMPLETA.vo|
+!s101 -O0
+vALUCOMPLETA_vlg_check_tst
+!i10b 1
+Z14 !s100 z0n9SNoBiN8mTTJTE_jhN3
+Z15 IGLXO:PcNZk>ZoWz5<CEE`0
+Z16 VP?2I1fC?]ScKH4C@^N5jD2
+R4
+Z17 w1646088579
+Z18 8ALUCOMPLETA.vt
+Z19 FALUCOMPLETA.vt
+L0 77
+R8
+r1
+!s85 0
+31
+Z20 !s108 1646088580.970000
+Z21 !s107 ALUCOMPLETA.vt|
+Z22 !s90 -work|work|ALUCOMPLETA.vt|
+!s101 -O0
+R10
+Z23 n@a@l@u@c@o@m@p@l@e@t@a_vlg_check_tst
+vALUCOMPLETA_vlg_sample_tst
+!i10b 1
+Z24 !s100 DhPZZmI5NA@ZU@5n5F@iQ3
+Z25 Iz;?ljPBe2`_Nd;`dG]ch21
+Z26 V8FVVd>JGdbb5AY]=D1FnH2
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@a@l@u@c@o@m@p@l@e@t@a_vlg_sample_tst
+vALUCOMPLETA_vlg_vec_tst
+!i10b 1
+!s100 Ci=NPD=o55^bjJ>CcfT>]2
+IoNXZ2o452E0Pg>jYdf_]J2
+Z28 V@V=W>=]]RhUY4NPmoIzz_1
+R4
+R17
+R18
+R19
+Z29 L0 280
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z30 n@a@l@u@c@o@m@p@l@e@t@a_vlg_vec_tst

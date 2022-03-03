@@ -1,0 +1,338 @@
+|ALUCORREGIDA
+C4 <= SumadorCuatroBits:inst5.C4
+A0 => BLOQUEX:inst.A0
+A1 => BLOQUEX:inst.A1
+A2 => BLOQUEX:inst.A2
+A3 => BLOQUEX:inst.A3
+S1 => BLOQUEX:inst.S1
+S1 => BLOQUEY:inst2.S1
+S1 => BLOQUEZ:inst3.S1
+S0 => BLOQUEX:inst.S0
+S0 => BLOQUEY:inst2.S0
+S0 => BLOQUEZ:inst3.S0
+B0 => BLOQUEY:inst2.B0
+B1 => BLOQUEY:inst2.B1
+B2 => BLOQUEY:inst2.B2
+B3 => BLOQUEY:inst2.B3
+EXIT0 <= SumadorCuatroBits:inst5.S0
+EXIT1 <= SumadorCuatroBits:inst5.S1
+EXIT2 <= SumadorCuatroBits:inst5.S2
+EXIT3 <= SumadorCuatroBits:inst5.S3
+
+
+|ALUCORREGIDA|SumadorCuatroBits:inst5
+A0 => fulladder:b2v_inst7.A
+B0 => SYNTHESIZED_WIRE_6.IN0
+A1 => fulladder:b2v_inst5.A
+B1 => SYNTHESIZED_WIRE_4.IN0
+A2 => fulladder:b2v_inst3.A
+B2 => SYNTHESIZED_WIRE_2.IN0
+A3 => fulladder:b2v_inst.A
+B3 => SYNTHESIZED_WIRE_0.IN0
+S => SYNTHESIZED_WIRE_0.IN1
+S => SYNTHESIZED_WIRE_2.IN1
+S => SYNTHESIZED_WIRE_4.IN1
+S => SYNTHESIZED_WIRE_6.IN1
+Cin => fulladder:b2v_inst7.Cin
+S0 <= fulladder:b2v_inst7.Sum
+S1 <= fulladder:b2v_inst5.Sum
+S2 <= fulladder:b2v_inst3.Sum
+S3 <= fulladder:b2v_inst.Sum
+C4 <= fulladder:b2v_inst.Cout
+
+
+|ALUCORREGIDA|SumadorCuatroBits:inst5|fulladder:b2v_inst
+A => semisumadores:b2v_inst1.A
+B => semisumadores:b2v_inst1.B
+Cin => semisumadores:b2v_inst.B
+Sum <= semisumadores:b2v_inst.Suma
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALUCORREGIDA|SumadorCuatroBits:inst5|fulladder:b2v_inst|semisumadores:b2v_inst
+A => Suma.IN0
+A => Acarreo.IN0
+B => Suma.IN1
+B => Acarreo.IN1
+Suma <= Suma.DB_MAX_OUTPUT_PORT_TYPE
+Acarreo <= Acarreo.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALUCORREGIDA|SumadorCuatroBits:inst5|fulladder:b2v_inst|semisumadores:b2v_inst1
+A => Suma.IN0
+A => Acarreo.IN0
+B => Suma.IN1
+B => Acarreo.IN1
+Suma <= Suma.DB_MAX_OUTPUT_PORT_TYPE
+Acarreo <= Acarreo.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALUCORREGIDA|SumadorCuatroBits:inst5|fulladder:b2v_inst3
+A => semisumadores:b2v_inst1.A
+B => semisumadores:b2v_inst1.B
+Cin => semisumadores:b2v_inst.B
+Sum <= semisumadores:b2v_inst.Suma
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALUCORREGIDA|SumadorCuatroBits:inst5|fulladder:b2v_inst3|semisumadores:b2v_inst
+A => Suma.IN0
+A => Acarreo.IN0
+B => Suma.IN1
+B => Acarreo.IN1
+Suma <= Suma.DB_MAX_OUTPUT_PORT_TYPE
+Acarreo <= Acarreo.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALUCORREGIDA|SumadorCuatroBits:inst5|fulladder:b2v_inst3|semisumadores:b2v_inst1
+A => Suma.IN0
+A => Acarreo.IN0
+B => Suma.IN1
+B => Acarreo.IN1
+Suma <= Suma.DB_MAX_OUTPUT_PORT_TYPE
+Acarreo <= Acarreo.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALUCORREGIDA|SumadorCuatroBits:inst5|fulladder:b2v_inst5
+A => semisumadores:b2v_inst1.A
+B => semisumadores:b2v_inst1.B
+Cin => semisumadores:b2v_inst.B
+Sum <= semisumadores:b2v_inst.Suma
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALUCORREGIDA|SumadorCuatroBits:inst5|fulladder:b2v_inst5|semisumadores:b2v_inst
+A => Suma.IN0
+A => Acarreo.IN0
+B => Suma.IN1
+B => Acarreo.IN1
+Suma <= Suma.DB_MAX_OUTPUT_PORT_TYPE
+Acarreo <= Acarreo.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALUCORREGIDA|SumadorCuatroBits:inst5|fulladder:b2v_inst5|semisumadores:b2v_inst1
+A => Suma.IN0
+A => Acarreo.IN0
+B => Suma.IN1
+B => Acarreo.IN1
+Suma <= Suma.DB_MAX_OUTPUT_PORT_TYPE
+Acarreo <= Acarreo.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALUCORREGIDA|SumadorCuatroBits:inst5|fulladder:b2v_inst7
+A => semisumadores:b2v_inst1.A
+B => semisumadores:b2v_inst1.B
+Cin => semisumadores:b2v_inst.B
+Sum <= semisumadores:b2v_inst.Suma
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALUCORREGIDA|SumadorCuatroBits:inst5|fulladder:b2v_inst7|semisumadores:b2v_inst
+A => Suma.IN0
+A => Acarreo.IN0
+B => Suma.IN1
+B => Acarreo.IN1
+Suma <= Suma.DB_MAX_OUTPUT_PORT_TYPE
+Acarreo <= Acarreo.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALUCORREGIDA|SumadorCuatroBits:inst5|fulladder:b2v_inst7|semisumadores:b2v_inst1
+A => Suma.IN0
+A => Acarreo.IN0
+B => Suma.IN1
+B => Acarreo.IN1
+Suma <= Suma.DB_MAX_OUTPUT_PORT_TYPE
+Acarreo <= Acarreo.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALUCORREGIDA|SumadorCuatroBits:inst4
+A0 => fulladder:b2v_inst7.A
+B0 => SYNTHESIZED_WIRE_6.IN0
+A1 => fulladder:b2v_inst5.A
+B1 => SYNTHESIZED_WIRE_4.IN0
+A2 => fulladder:b2v_inst3.A
+B2 => SYNTHESIZED_WIRE_2.IN0
+A3 => fulladder:b2v_inst.A
+B3 => SYNTHESIZED_WIRE_0.IN0
+S => SYNTHESIZED_WIRE_0.IN1
+S => SYNTHESIZED_WIRE_2.IN1
+S => SYNTHESIZED_WIRE_4.IN1
+S => SYNTHESIZED_WIRE_6.IN1
+Cin => fulladder:b2v_inst7.Cin
+S0 <= fulladder:b2v_inst7.Sum
+S1 <= fulladder:b2v_inst5.Sum
+S2 <= fulladder:b2v_inst3.Sum
+S3 <= fulladder:b2v_inst.Sum
+C4 <= fulladder:b2v_inst.Cout
+
+
+|ALUCORREGIDA|SumadorCuatroBits:inst4|fulladder:b2v_inst
+A => semisumadores:b2v_inst1.A
+B => semisumadores:b2v_inst1.B
+Cin => semisumadores:b2v_inst.B
+Sum <= semisumadores:b2v_inst.Suma
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALUCORREGIDA|SumadorCuatroBits:inst4|fulladder:b2v_inst|semisumadores:b2v_inst
+A => Suma.IN0
+A => Acarreo.IN0
+B => Suma.IN1
+B => Acarreo.IN1
+Suma <= Suma.DB_MAX_OUTPUT_PORT_TYPE
+Acarreo <= Acarreo.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALUCORREGIDA|SumadorCuatroBits:inst4|fulladder:b2v_inst|semisumadores:b2v_inst1
+A => Suma.IN0
+A => Acarreo.IN0
+B => Suma.IN1
+B => Acarreo.IN1
+Suma <= Suma.DB_MAX_OUTPUT_PORT_TYPE
+Acarreo <= Acarreo.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALUCORREGIDA|SumadorCuatroBits:inst4|fulladder:b2v_inst3
+A => semisumadores:b2v_inst1.A
+B => semisumadores:b2v_inst1.B
+Cin => semisumadores:b2v_inst.B
+Sum <= semisumadores:b2v_inst.Suma
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALUCORREGIDA|SumadorCuatroBits:inst4|fulladder:b2v_inst3|semisumadores:b2v_inst
+A => Suma.IN0
+A => Acarreo.IN0
+B => Suma.IN1
+B => Acarreo.IN1
+Suma <= Suma.DB_MAX_OUTPUT_PORT_TYPE
+Acarreo <= Acarreo.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALUCORREGIDA|SumadorCuatroBits:inst4|fulladder:b2v_inst3|semisumadores:b2v_inst1
+A => Suma.IN0
+A => Acarreo.IN0
+B => Suma.IN1
+B => Acarreo.IN1
+Suma <= Suma.DB_MAX_OUTPUT_PORT_TYPE
+Acarreo <= Acarreo.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALUCORREGIDA|SumadorCuatroBits:inst4|fulladder:b2v_inst5
+A => semisumadores:b2v_inst1.A
+B => semisumadores:b2v_inst1.B
+Cin => semisumadores:b2v_inst.B
+Sum <= semisumadores:b2v_inst.Suma
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALUCORREGIDA|SumadorCuatroBits:inst4|fulladder:b2v_inst5|semisumadores:b2v_inst
+A => Suma.IN0
+A => Acarreo.IN0
+B => Suma.IN1
+B => Acarreo.IN1
+Suma <= Suma.DB_MAX_OUTPUT_PORT_TYPE
+Acarreo <= Acarreo.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALUCORREGIDA|SumadorCuatroBits:inst4|fulladder:b2v_inst5|semisumadores:b2v_inst1
+A => Suma.IN0
+A => Acarreo.IN0
+B => Suma.IN1
+B => Acarreo.IN1
+Suma <= Suma.DB_MAX_OUTPUT_PORT_TYPE
+Acarreo <= Acarreo.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALUCORREGIDA|SumadorCuatroBits:inst4|fulladder:b2v_inst7
+A => semisumadores:b2v_inst1.A
+B => semisumadores:b2v_inst1.B
+Cin => semisumadores:b2v_inst.B
+Sum <= semisumadores:b2v_inst.Suma
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALUCORREGIDA|SumadorCuatroBits:inst4|fulladder:b2v_inst7|semisumadores:b2v_inst
+A => Suma.IN0
+A => Acarreo.IN0
+B => Suma.IN1
+B => Acarreo.IN1
+Suma <= Suma.DB_MAX_OUTPUT_PORT_TYPE
+Acarreo <= Acarreo.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALUCORREGIDA|SumadorCuatroBits:inst4|fulladder:b2v_inst7|semisumadores:b2v_inst1
+A => Suma.IN0
+A => Acarreo.IN0
+B => Suma.IN1
+B => Acarreo.IN1
+Suma <= Suma.DB_MAX_OUTPUT_PORT_TYPE
+Acarreo <= Acarreo.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALUCORREGIDA|BLOQUEX:inst
+A0 => X0.IN1
+A1 => X1.IN1
+A2 => X2.IN1
+A3 => X3.IN1
+S1 => SYNTHESIZED_WIRE_4.IN0
+S0 => SYNTHESIZED_WIRE_4.IN1
+X0 <= X0.DB_MAX_OUTPUT_PORT_TYPE
+X1 <= X1.DB_MAX_OUTPUT_PORT_TYPE
+X2 <= X2.DB_MAX_OUTPUT_PORT_TYPE
+X3 <= X3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALUCORREGIDA|BLOQUEY:inst2
+S1 => SYNTHESIZED_WIRE_15.IN0
+S1 => muxcuadruple:b2v_inst.B1
+S0 => SYNTHESIZED_WIRE_15.IN1
+S0 => muxcuadruple:b2v_inst.S
+B0 => muxcuadruple:b2v_inst.A0
+B1 => muxcuadruple:b2v_inst.A1
+B2 => muxcuadruple:b2v_inst.A2
+B3 => muxcuadruple:b2v_inst.A3
+Y0 <= Y0.DB_MAX_OUTPUT_PORT_TYPE
+Y1 <= Y1.DB_MAX_OUTPUT_PORT_TYPE
+Y2 <= Y2.DB_MAX_OUTPUT_PORT_TYPE
+Y3 <= Y3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALUCORREGIDA|BLOQUEY:inst2|muxcuadruple:b2v_inst
+S => SYNTHESIZED_WIRE_6.IN0
+S => SYNTHESIZED_WIRE_4.IN0
+S => SYNTHESIZED_WIRE_9.IN0
+S => SYNTHESIZED_WIRE_1.IN0
+S => SYNTHESIZED_WIRE_7.IN0
+S => SYNTHESIZED_WIRE_5.IN0
+S => SYNTHESIZED_WIRE_10.IN0
+S => SYNTHESIZED_WIRE_2.IN0
+B0 => SYNTHESIZED_WIRE_1.IN1
+A1 => SYNTHESIZED_WIRE_7.IN1
+B1 => SYNTHESIZED_WIRE_6.IN1
+A2 => SYNTHESIZED_WIRE_10.IN1
+B2 => SYNTHESIZED_WIRE_9.IN1
+A3 => SYNTHESIZED_WIRE_5.IN1
+B3 => SYNTHESIZED_WIRE_4.IN1
+A0 => SYNTHESIZED_WIRE_2.IN1
+Y0 <= Y0.DB_MAX_OUTPUT_PORT_TYPE
+Y1 <= Y1.DB_MAX_OUTPUT_PORT_TYPE
+Y2 <= Y2.DB_MAX_OUTPUT_PORT_TYPE
+Y3 <= Y3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALUCORREGIDA|BLOQUEZ:inst3
+S1 => SYNTHESIZED_WIRE_12.IN0
+S1 => SYNTHESIZED_WIRE_3.IN0
+S1 => SYNTHESIZED_WIRE_13.IN0
+S1 => SYNTHESIZED_WIRE_1.IN0
+S0 => SYNTHESIZED_WIRE_1.IN1
+S0 => SYNTHESIZED_WIRE_13.IN1
+S0 => SYNTHESIZED_WIRE_12.IN1
+S0 => SYNTHESIZED_WIRE_3.IN1
+Z3 <= Z3.DB_MAX_OUTPUT_PORT_TYPE
+Z2 <= Z2.DB_MAX_OUTPUT_PORT_TYPE
+Z1 <= Z1.DB_MAX_OUTPUT_PORT_TYPE
+Z0 <= Z0.DB_MAX_OUTPUT_PORT_TYPE
+
+

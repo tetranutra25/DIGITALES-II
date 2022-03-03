@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\VHDL\PARCIALDOS\BCDaSIETE\simulation\qsim
+vBCDaSIETE
+Z1 !s100 `ogdK9=9<Hl[8j1oh47Lf3
+Z2 IeA@>6Yg1Fg]AE_oV3lD491
+Z3 V]5_a]ci`4eG2ocBE<mjB<3
+Z4 dC:\VHDL\PARCIALDOS\CuartoPunto\BCDaSIETE\simulation\qsim
+Z5 w1645319752
+Z6 8BCDaSIETE.vo
+Z7 FBCDaSIETE.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|BCDaSIETE.vo|
+Z10 o-work work -O0
+Z11 n@b@c@da@s@i@e@t@e
+!i10b 1
+!s85 0
+Z12 !s108 1645319754.464000
+Z13 !s107 BCDaSIETE.vo|
+!s101 -O0
+vBCDaSIETE_vlg_check_tst
+!i10b 1
+Z14 !s100 `mf?CEmfak5;2=13nldBO3
+Z15 ImjB>9Yg_CYK702mZ2=f1:1
+Z16 Vz1KFEFO9]G36RDz1THF6z1
+R4
+Z17 w1645319751
+Z18 8BCDaSIETE.vt
+Z19 FBCDaSIETE.vt
+L0 63
+R8
+r1
+!s85 0
+31
+Z20 !s108 1645319754.612000
+Z21 !s107 BCDaSIETE.vt|
+Z22 !s90 -work|work|BCDaSIETE.vt|
+!s101 -O0
+R10
+Z23 n@b@c@da@s@i@e@t@e_vlg_check_tst
+vBCDaSIETE_vlg_sample_tst
+!i10b 1
+Z24 !s100 ?C7>3JE45K4YL0GK`0UYE3
+Z25 IeI`YXgFafe1VL97IWK_VP0
+Z26 V[bJc8XJ6Kg@XOSkLic9ZY0
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@b@c@da@s@i@e@t@e_vlg_sample_tst
+vBCDaSIETE_vlg_vec_tst
+!i10b 1
+Z28 !s100 9a1LKzdPeLRjjDm4Fz>g_0
+Z29 ICEoU0ZcZPkS@6j@C_o_<:1
+Z30 VRMP^5bZR`<V3Y:Z_6F<3S3
+R4
+R17
+R18
+R19
+Z31 L0 320
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z32 n@b@c@da@s@i@e@t@e_vlg_vec_tst

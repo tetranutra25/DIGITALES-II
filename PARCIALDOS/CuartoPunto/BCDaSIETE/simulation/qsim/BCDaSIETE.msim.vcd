@@ -1,0 +1,365 @@
+$comment
+	File created using the following command:
+		vcd file BCDaSIETE.msim.vcd -direction
+$end
+$date
+	Sat Feb 19 20:15:55 2022
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module BCDaSIETE_vlg_vec_tst $end
+$var reg 1 ! A $end
+$var reg 1 " B $end
+$var reg 1 # C $end
+$var reg 1 $ D $end
+$var wire 1 % A0 $end
+$var wire 1 & B0 $end
+$var wire 1 ' C0 $end
+$var wire 1 ( D0 $end
+$var wire 1 ) E0 $end
+$var wire 1 * F0 $end
+$var wire 1 + G0 $end
+$var wire 1 , sampler $end
+$scope module i1 $end
+$var wire 1 - gnd $end
+$var wire 1 . vcc $end
+$var wire 1 / unknown $end
+$var tri1 1 0 devclrn $end
+$var tri1 1 1 devpor $end
+$var tri1 1 2 devoe $end
+$var wire 1 3 A0~output_o $end
+$var wire 1 4 B0~output_o $end
+$var wire 1 5 C0~output_o $end
+$var wire 1 6 D0~output_o $end
+$var wire 1 7 E0~output_o $end
+$var wire 1 8 F0~output_o $end
+$var wire 1 9 G0~output_o $end
+$var wire 1 : B~input_o $end
+$var wire 1 ; A~input_o $end
+$var wire 1 < C~input_o $end
+$var wire 1 = D~input_o $end
+$var wire 1 > inst1~0_combout $end
+$var wire 1 ? inst2~combout $end
+$var wire 1 @ inst3~combout $end
+$var wire 1 A inst9~0_combout $end
+$var wire 1 B inst6~0_combout $end
+$var wire 1 C inst7~0_combout $end
+$var wire 1 D inst8~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+1%
+1&
+1'
+1(
+1)
+1*
+0+
+x,
+0-
+1.
+x/
+10
+11
+12
+13
+14
+15
+16
+17
+18
+09
+0:
+0;
+0<
+0=
+1>
+1?
+1@
+1A
+1B
+1C
+0D
+$end
+#50000
+1$
+1=
+0,
+0C
+0B
+0A
+0>
+08
+07
+06
+03
+0*
+0)
+0(
+0%
+#100000
+1#
+0$
+1<
+0=
+1,
+1D
+1B
+1A
+0@
+1>
+19
+17
+16
+05
+13
+1+
+1)
+1(
+0'
+1%
+#150000
+1$
+1=
+0,
+0B
+1@
+07
+15
+0)
+1'
+#200000
+1"
+0#
+0$
+1:
+0<
+0=
+1,
+1C
+0A
+0>
+18
+06
+03
+1*
+0(
+0%
+#250000
+1$
+1=
+0,
+1A
+0?
+1>
+16
+04
+13
+1(
+0&
+1%
+#300000
+1#
+0$
+1<
+0=
+1,
+1B
+17
+1)
+#350000
+1$
+1=
+0,
+0D
+0C
+0B
+0A
+1?
+09
+08
+07
+06
+14
+0+
+0*
+0)
+0(
+1&
+#400000
+1!
+0"
+0#
+0$
+1;
+0:
+0<
+0=
+1,
+1D
+1C
+1B
+1A
+19
+18
+17
+16
+1+
+1*
+1)
+1(
+#450000
+1$
+1=
+0,
+0B
+0A
+07
+06
+0)
+0(
+#500000
+1#
+0$
+1<
+0=
+1,
+1B
+1A
+0@
+17
+16
+05
+1)
+1(
+0'
+#550000
+1$
+1=
+0,
+0B
+0A
+1@
+07
+06
+15
+0)
+0(
+1'
+#600000
+1"
+0#
+0$
+1:
+0<
+0=
+1,
+1B
+1A
+17
+16
+1)
+1(
+#650000
+1$
+1=
+0,
+0B
+07
+0)
+#700000
+1#
+0$
+1<
+0=
+1,
+1B
+17
+1)
+#750000
+1$
+1=
+0,
+0B
+0A
+07
+06
+0)
+0(
+#800000
+0!
+0"
+0#
+0$
+0;
+0:
+0<
+0=
+1,
+0D
+1B
+1A
+09
+17
+16
+0+
+1)
+1(
+#850000
+1$
+1=
+0,
+0C
+0B
+0A
+0>
+08
+07
+06
+03
+0*
+0)
+0(
+0%
+#900000
+1#
+0$
+1<
+0=
+1,
+1D
+1B
+1A
+0@
+1>
+19
+17
+16
+05
+13
+1+
+1)
+1(
+0'
+1%
+#950000
+1$
+1=
+0,
+0B
+1@
+07
+15
+0)
+1'
+#1000000

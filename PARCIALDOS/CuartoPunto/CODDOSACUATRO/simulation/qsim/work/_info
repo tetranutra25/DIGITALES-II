@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\VHDL\PARCIALDOS\CODDOSACUATRO\simulation\qsim
+vCODDOSACUATRO
+Z1 !s100 YnYGeESi@4H8Un4dG8h[Z1
+Z2 I[Dg3]aWdc2ELfIQ87jnfz3
+Z3 V2^]M5NRYN;h@3?ONJka_D0
+Z4 dC:\VHDL\PARCIALDOS\CuartoPunto\CODDOSACUATRO\simulation\qsim
+Z5 w1646170385
+Z6 8CODDOSACUATRO.vo
+Z7 FCODDOSACUATRO.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|CODDOSACUATRO.vo|
+Z10 o-work work -O0
+Z11 n@c@o@d@d@o@s@a@c@u@a@t@r@o
+!i10b 1
+!s85 0
+Z12 !s108 1646170387.009000
+Z13 !s107 CODDOSACUATRO.vo|
+!s101 -O0
+vCODDOSACUATRO_vlg_check_tst
+!i10b 1
+Z14 !s100 :FG_naJI]l[l8NCUTzg=n0
+Z15 I7b;M0?Q=[JU5oh>3LJhWB1
+Z16 V?D<Pb;ZNfXSF]P:jBT9gP0
+R4
+Z17 w1646170384
+Z18 8CODDOSACUATRO.vt
+Z19 FCODDOSACUATRO.vt
+L0 63
+R8
+r1
+!s85 0
+31
+Z20 !s108 1646170387.123000
+Z21 !s107 CODDOSACUATRO.vt|
+Z22 !s90 -work|work|CODDOSACUATRO.vt|
+!s101 -O0
+R10
+Z23 n@c@o@d@d@o@s@a@c@u@a@t@r@o_vlg_check_tst
+vCODDOSACUATRO_vlg_sample_tst
+!i10b 1
+Z24 !s100 Eie6X^J^HVJ>6=JZIok9j3
+Z25 Icck9E0kz^]oiPBVI5MjV23
+Z26 VHei41lk?3KSQba;hVOnUI0
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@c@o@d@d@o@s@a@c@u@a@t@r@o_vlg_sample_tst
+vCODDOSACUATRO_vlg_vec_tst
+!i10b 1
+Z28 !s100 B?ImaPobR3cmVB;_ZFgNJ3
+Z29 IVXCVhLnm>]V0PT?eSbH@k1
+Z30 VI7Hk<lLd6Zo=8dNA?=<][1
+R4
+R17
+R18
+R19
+Z31 L0 185
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z32 n@c@o@d@d@o@s@a@c@u@a@t@r@o_vlg_vec_tst

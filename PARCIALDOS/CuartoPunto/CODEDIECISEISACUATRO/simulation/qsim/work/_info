@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\VHDL\PARCIALDOS\CODEDIECISEISACUATRO\simulation\qsim
+vCODEDIECISEISACUATRO
+Z1 Ia91Q=6]KaD?j2_QEXPl7H2
+Z2 VXHWlHm]eX8g7`BJBd^9W32
+Z3 dC:\VHDL\PARCIALDOS\CODEDIECISEISACUATRO\simulation\qsim
+Z4 w1645215195
+Z5 8CODEDIECISEISACUATRO.vo
+Z6 FCODEDIECISEISACUATRO.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@c@o@d@e@d@i@e@c@i@s@e@i@s@a@c@u@a@t@r@o
+!i10b 1
+Z10 !s100 T3]oW^PN2:7=2];ZEJYYC2
+!s85 0
+Z11 !s108 1645215196.014000
+Z12 !s107 CODEDIECISEISACUATRO.vo|
+Z13 !s90 -work|work|CODEDIECISEISACUATRO.vo|
+!s101 -O0
+vCODEDIECISEISACUATRO_vlg_check_tst
+!i10b 1
+!s100 KEK9eh9KDG_[KmFWbe^kh1
+IF=Di_kXP]FI0bagQ>b>bX2
+VACUcRi3PIAU]Lg@2^f7_c3
+R3
+Z14 w1645215194
+Z15 8CODEDIECISEISACUATRO.vt
+Z16 FCODEDIECISEISACUATRO.vt
+L0 87
+R7
+r1
+!s85 0
+31
+Z17 !s108 1645215196.077000
+Z18 !s107 CODEDIECISEISACUATRO.vt|
+Z19 !s90 -work|work|CODEDIECISEISACUATRO.vt|
+!s101 -O0
+R8
+n@c@o@d@e@d@i@e@c@i@s@e@i@s@a@c@u@a@t@r@o_vlg_check_tst
+vCODEDIECISEISACUATRO_vlg_sample_tst
+!i10b 1
+!s100 i>J4H2h4H0eLId<??c4eO1
+IOiU60P8k68me>cjb_D<o83
+V;=XNR^VcF143FoGjbckDl0
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@c@o@d@e@d@i@e@c@i@s@e@i@s@a@c@u@a@t@r@o_vlg_sample_tst
+vCODEDIECISEISACUATRO_vlg_vec_tst
+!i10b 1
+!s100 oI9<;6eA]_>Mb>lULZK^k2
+I6e6@GZmT_H@i<I4bXi2XY2
+VgJCkKB[dZcMIhYeO07kL11
+R3
+R14
+R15
+R16
+L0 263
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@c@o@d@e@d@i@e@c@i@s@e@i@s@a@c@u@a@t@r@o_vlg_vec_tst
