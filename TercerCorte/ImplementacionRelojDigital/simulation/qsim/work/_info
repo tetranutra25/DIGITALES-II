@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\VHDL\TercerCorte\ImplementacionRelojDigital\simulation\qsim
+vImplementacionRelojDigital
+Z1 !s100 4QV:6:^K=`Ah2VOVI7OnX2
+Z2 I;OGYD2FWaddCF?jCm@gWF1
+Z3 V1SFfYQS47m4Qlk25oij@03
+Z4 dC:\VHDL\TercerCorte\ImplementacionRelojDigital\simulation\qsim
+Z5 w1646953657
+Z6 8ImplementacionRelojDigital.vo
+Z7 FImplementacionRelojDigital.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|ImplementacionRelojDigital.vo|
+Z10 o-work work -O0
+Z11 n@implementacion@reloj@digital
+!i10b 1
+!s85 0
+Z12 !s108 1646953658.939000
+Z13 !s107 ImplementacionRelojDigital.vo|
+!s101 -O0
+vImplementacionRelojDigital_vlg_check_tst
+!i10b 1
+Z14 !s100 jVe:d6Y[WYkSc@ZHd_aAe1
+Z15 IC?Ha?NA29h3[JiZ9JKLo:3
+Z16 VeXGDUG[nKAKDg<5=]=M8E0
+R4
+Z17 w1646953656
+Z18 8ImplementacionRelojDigital.vt
+Z19 FImplementacionRelojDigital.vt
+L0 57
+R8
+r1
+!s85 0
+31
+Z20 !s108 1646953659.029000
+Z21 !s107 ImplementacionRelojDigital.vt|
+Z22 !s90 -work|work|ImplementacionRelojDigital.vt|
+!s101 -O0
+R10
+Z23 n@implementacion@reloj@digital_vlg_check_tst
+vImplementacionRelojDigital_vlg_sample_tst
+!i10b 1
+Z24 !s100 o`7aj4KBbC9DKojTd0fhJ3
+Z25 IWl=XIHfB?ZA=;ONdDXTQz3
+Z26 VhL3mTkAJ:a2C4PLbdLIC91
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@implementacion@reloj@digital_vlg_sample_tst
+vImplementacionRelojDigital_vlg_vec_tst
+!i10b 1
+!s100 Ye`<8>fZN_Nzc`Xj5GTPY2
+I;ic4<WSSdnT[jHP_VUUT]2
+Z28 VY@V@E4ZK5l0WWaCb3UG7D2
+R4
+R17
+R18
+R19
+Z29 L0 152
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z30 n@implementacion@reloj@digital_vlg_vec_tst

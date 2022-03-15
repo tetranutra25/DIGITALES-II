@@ -1,0 +1,496 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus II 64-Bit"
+// VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition"
+
+// DATE "03/08/2022 17:30:58"
+
+// 
+// Device: Altera EP3C16F484C6 Package FBGA484
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module RelojHoras (
+	A0,
+	CLK,
+	A1,
+	A2,
+	A3,
+	A4,
+	A5);
+output 	A0;
+input 	CLK;
+output 	A1;
+output 	A2;
+output 	A3;
+output 	A4;
+output 	A5;
+
+// Design Ports Information
+// A0	=>  Location: PIN_U8,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// A1	=>  Location: PIN_U7,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// A2	=>  Location: PIN_R11,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// A3	=>  Location: PIN_V5,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// A4	=>  Location: PIN_Y3,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// A5	=>  Location: PIN_Y4,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// CLK	=>  Location: PIN_Y6,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \inst1~combout ;
+wire \inst|synthesized_var_for_JKFF_inst52~0_combout ;
+wire \A0~output_o ;
+wire \A1~output_o ;
+wire \A2~output_o ;
+wire \A3~output_o ;
+wire \A4~output_o ;
+wire \A5~output_o ;
+wire \CLK~input_o ;
+wire \inst|synthesized_var_for_JKFF_inst52~feeder_combout ;
+wire \inst|synthesized_var_for_JKFF_inst3~0_combout ;
+wire \inst|synthesized_var_for_JKFF_inst3~q ;
+wire \inst|synthesized_var_for_SYNTHESIZED_WIRE_20~0_combout ;
+wire \inst|synthesized_var_for_SYNTHESIZED_WIRE_20~feeder_combout ;
+wire \inst|synthesized_var_for_SYNTHESIZED_WIRE_20~q ;
+wire \inst4|synthesized_var_for_JKFF_inst1~0_combout ;
+wire \inst|synthesized_var_for_JKFF_inst2~0_combout ;
+wire \inst|synthesized_var_for_JKFF_inst2~q ;
+wire \inst4|synthesized_var_for_SYNTHESIZED_WIRE_10~0_combout ;
+wire \inst4|synthesized_var_for_SYNTHESIZED_WIRE_10~q ;
+wire \inst4|SYNTHESIZED_WIRE_12~0_combout ;
+wire \inst4|synthesized_var_for_JKFF_inst1~q ;
+wire \inst|SYNTHESIZED_WIRE_22~combout ;
+wire \inst|synthesized_var_for_JKFF_inst52~q ;
+
+
+// Location: LCCOMB_X3_Y1_N30
+cycloneiii_lcell_comb inst1(
+// Equation(s):
+// \inst1~combout  = LCELL((\inst|synthesized_var_for_JKFF_inst3~q  & \inst|synthesized_var_for_SYNTHESIZED_WIRE_20~q ))
+
+	.dataa(\inst|synthesized_var_for_JKFF_inst3~q ),
+	.datab(gnd),
+	.datac(gnd),
+	.datad(\inst|synthesized_var_for_SYNTHESIZED_WIRE_20~q ),
+	.cin(gnd),
+	.combout(\inst1~combout ),
+	.cout());
+// synopsys translate_off
+defparam inst1.lut_mask = 16'hAA00;
+defparam inst1.sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X4_Y1_N6
+cycloneiii_lcell_comb \inst|synthesized_var_for_JKFF_inst52~0 (
+// Equation(s):
+// \inst|synthesized_var_for_JKFF_inst52~0_combout  = !\inst|synthesized_var_for_JKFF_inst52~q 
+
+	.dataa(gnd),
+	.datab(gnd),
+	.datac(gnd),
+	.datad(\inst|synthesized_var_for_JKFF_inst52~q ),
+	.cin(gnd),
+	.combout(\inst|synthesized_var_for_JKFF_inst52~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \inst|synthesized_var_for_JKFF_inst52~0 .lut_mask = 16'h00FF;
+defparam \inst|synthesized_var_for_JKFF_inst52~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: IOOBUF_X3_Y0_N16
+cycloneiii_io_obuf \A0~output (
+	.i(\inst|synthesized_var_for_JKFF_inst52~q ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\A0~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \A0~output .bus_hold = "false";
+defparam \A0~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X3_Y0_N23
+cycloneiii_io_obuf \A1~output (
+	.i(\inst|synthesized_var_for_SYNTHESIZED_WIRE_20~q ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\A1~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \A1~output .bus_hold = "false";
+defparam \A1~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X3_Y0_N2
+cycloneiii_io_obuf \A2~output (
+	.i(\inst|synthesized_var_for_JKFF_inst2~q ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\A2~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \A2~output .bus_hold = "false";
+defparam \A2~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X3_Y0_N30
+cycloneiii_io_obuf \A3~output (
+	.i(\inst|synthesized_var_for_JKFF_inst3~q ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\A3~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \A3~output .bus_hold = "false";
+defparam \A3~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X5_Y0_N23
+cycloneiii_io_obuf \A4~output (
+	.i(\inst4|synthesized_var_for_SYNTHESIZED_WIRE_10~q ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\A4~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \A4~output .bus_hold = "false";
+defparam \A4~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOOBUF_X3_Y0_N9
+cycloneiii_io_obuf \A5~output (
+	.i(\inst4|synthesized_var_for_JKFF_inst1~q ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\A5~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \A5~output .bus_hold = "false";
+defparam \A5~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X5_Y0_N8
+cycloneiii_io_ibuf \CLK~input (
+	.i(CLK),
+	.ibar(gnd),
+	.o(\CLK~input_o ));
+// synopsys translate_off
+defparam \CLK~input .bus_hold = "false";
+defparam \CLK~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: LCCOMB_X4_Y1_N24
+cycloneiii_lcell_comb \inst|synthesized_var_for_JKFF_inst52~feeder (
+// Equation(s):
+// \inst|synthesized_var_for_JKFF_inst52~feeder_combout  = \inst|synthesized_var_for_JKFF_inst52~0_combout 
+
+	.dataa(\inst|synthesized_var_for_JKFF_inst52~0_combout ),
+	.datab(gnd),
+	.datac(gnd),
+	.datad(gnd),
+	.cin(gnd),
+	.combout(\inst|synthesized_var_for_JKFF_inst52~feeder_combout ),
+	.cout());
+// synopsys translate_off
+defparam \inst|synthesized_var_for_JKFF_inst52~feeder .lut_mask = 16'hAAAA;
+defparam \inst|synthesized_var_for_JKFF_inst52~feeder .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X3_Y1_N6
+cycloneiii_lcell_comb \inst|synthesized_var_for_JKFF_inst3~0 (
+// Equation(s):
+// \inst|synthesized_var_for_JKFF_inst3~0_combout  = !\inst|synthesized_var_for_JKFF_inst3~q 
+
+	.dataa(gnd),
+	.datab(gnd),
+	.datac(\inst|synthesized_var_for_JKFF_inst3~q ),
+	.datad(gnd),
+	.cin(gnd),
+	.combout(\inst|synthesized_var_for_JKFF_inst3~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \inst|synthesized_var_for_JKFF_inst3~0 .lut_mask = 16'h0F0F;
+defparam \inst|synthesized_var_for_JKFF_inst3~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: FF_X3_Y1_N7
+dffeas \inst|synthesized_var_for_JKFF_inst3 (
+	.clk(!\inst|synthesized_var_for_JKFF_inst2~q ),
+	.d(\inst|synthesized_var_for_JKFF_inst3~0_combout ),
+	.asdata(vcc),
+	.clrn(!\inst|SYNTHESIZED_WIRE_22~combout ),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(\inst|synthesized_var_for_JKFF_inst3~q ),
+	.prn(vcc));
+// synopsys translate_off
+defparam \inst|synthesized_var_for_JKFF_inst3 .is_wysiwyg = "true";
+defparam \inst|synthesized_var_for_JKFF_inst3 .power_up = "low";
+// synopsys translate_on
+
+// Location: LCCOMB_X3_Y1_N24
+cycloneiii_lcell_comb \inst|synthesized_var_for_SYNTHESIZED_WIRE_20~0 (
+// Equation(s):
+// \inst|synthesized_var_for_SYNTHESIZED_WIRE_20~0_combout  = !\inst|synthesized_var_for_SYNTHESIZED_WIRE_20~q 
+
+	.dataa(gnd),
+	.datab(\inst|synthesized_var_for_SYNTHESIZED_WIRE_20~q ),
+	.datac(gnd),
+	.datad(gnd),
+	.cin(gnd),
+	.combout(\inst|synthesized_var_for_SYNTHESIZED_WIRE_20~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \inst|synthesized_var_for_SYNTHESIZED_WIRE_20~0 .lut_mask = 16'h3333;
+defparam \inst|synthesized_var_for_SYNTHESIZED_WIRE_20~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X3_Y1_N16
+cycloneiii_lcell_comb \inst|synthesized_var_for_SYNTHESIZED_WIRE_20~feeder (
+// Equation(s):
+// \inst|synthesized_var_for_SYNTHESIZED_WIRE_20~feeder_combout  = \inst|synthesized_var_for_SYNTHESIZED_WIRE_20~0_combout 
+
+	.dataa(gnd),
+	.datab(\inst|synthesized_var_for_SYNTHESIZED_WIRE_20~0_combout ),
+	.datac(gnd),
+	.datad(gnd),
+	.cin(gnd),
+	.combout(\inst|synthesized_var_for_SYNTHESIZED_WIRE_20~feeder_combout ),
+	.cout());
+// synopsys translate_off
+defparam \inst|synthesized_var_for_SYNTHESIZED_WIRE_20~feeder .lut_mask = 16'hCCCC;
+defparam \inst|synthesized_var_for_SYNTHESIZED_WIRE_20~feeder .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: FF_X3_Y1_N17
+dffeas \inst|synthesized_var_for_SYNTHESIZED_WIRE_20 (
+	.clk(!\inst|synthesized_var_for_JKFF_inst52~q ),
+	.d(\inst|synthesized_var_for_SYNTHESIZED_WIRE_20~feeder_combout ),
+	.asdata(vcc),
+	.clrn(!\inst|SYNTHESIZED_WIRE_22~combout ),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(\inst|synthesized_var_for_SYNTHESIZED_WIRE_20~q ),
+	.prn(vcc));
+// synopsys translate_off
+defparam \inst|synthesized_var_for_SYNTHESIZED_WIRE_20 .is_wysiwyg = "true";
+defparam \inst|synthesized_var_for_SYNTHESIZED_WIRE_20 .power_up = "low";
+// synopsys translate_on
+
+// Location: LCCOMB_X5_Y1_N28
+cycloneiii_lcell_comb \inst4|synthesized_var_for_JKFF_inst1~0 (
+// Equation(s):
+// \inst4|synthesized_var_for_JKFF_inst1~0_combout  = !\inst4|synthesized_var_for_JKFF_inst1~q 
+
+	.dataa(gnd),
+	.datab(gnd),
+	.datac(\inst4|synthesized_var_for_JKFF_inst1~q ),
+	.datad(gnd),
+	.cin(gnd),
+	.combout(\inst4|synthesized_var_for_JKFF_inst1~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \inst4|synthesized_var_for_JKFF_inst1~0 .lut_mask = 16'h0F0F;
+defparam \inst4|synthesized_var_for_JKFF_inst1~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: LCCOMB_X4_Y1_N28
+cycloneiii_lcell_comb \inst|synthesized_var_for_JKFF_inst2~0 (
+// Equation(s):
+// \inst|synthesized_var_for_JKFF_inst2~0_combout  = !\inst|synthesized_var_for_JKFF_inst2~q 
+
+	.dataa(\inst|synthesized_var_for_JKFF_inst2~q ),
+	.datab(gnd),
+	.datac(gnd),
+	.datad(gnd),
+	.cin(gnd),
+	.combout(\inst|synthesized_var_for_JKFF_inst2~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \inst|synthesized_var_for_JKFF_inst2~0 .lut_mask = 16'h5555;
+defparam \inst|synthesized_var_for_JKFF_inst2~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: FF_X4_Y1_N7
+dffeas \inst|synthesized_var_for_JKFF_inst2 (
+	.clk(!\inst|synthesized_var_for_SYNTHESIZED_WIRE_20~q ),
+	.d(gnd),
+	.asdata(\inst|synthesized_var_for_JKFF_inst2~0_combout ),
+	.clrn(!\inst|SYNTHESIZED_WIRE_22~combout ),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(vcc),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(\inst|synthesized_var_for_JKFF_inst2~q ),
+	.prn(vcc));
+// synopsys translate_off
+defparam \inst|synthesized_var_for_JKFF_inst2 .is_wysiwyg = "true";
+defparam \inst|synthesized_var_for_JKFF_inst2 .power_up = "low";
+// synopsys translate_on
+
+// Location: LCCOMB_X5_Y1_N22
+cycloneiii_lcell_comb \inst4|synthesized_var_for_SYNTHESIZED_WIRE_10~0 (
+// Equation(s):
+// \inst4|synthesized_var_for_SYNTHESIZED_WIRE_10~0_combout  = !\inst4|synthesized_var_for_SYNTHESIZED_WIRE_10~q 
+
+	.dataa(gnd),
+	.datab(\inst4|synthesized_var_for_SYNTHESIZED_WIRE_10~q ),
+	.datac(gnd),
+	.datad(gnd),
+	.cin(gnd),
+	.combout(\inst4|synthesized_var_for_SYNTHESIZED_WIRE_10~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \inst4|synthesized_var_for_SYNTHESIZED_WIRE_10~0 .lut_mask = 16'h3333;
+defparam \inst4|synthesized_var_for_SYNTHESIZED_WIRE_10~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: FF_X5_Y1_N27
+dffeas \inst4|synthesized_var_for_SYNTHESIZED_WIRE_10 (
+	.clk(\inst1~combout ),
+	.d(gnd),
+	.asdata(\inst4|synthesized_var_for_SYNTHESIZED_WIRE_10~0_combout ),
+	.clrn(!\inst4|SYNTHESIZED_WIRE_12~0_combout ),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(vcc),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(\inst4|synthesized_var_for_SYNTHESIZED_WIRE_10~q ),
+	.prn(vcc));
+// synopsys translate_off
+defparam \inst4|synthesized_var_for_SYNTHESIZED_WIRE_10 .is_wysiwyg = "true";
+defparam \inst4|synthesized_var_for_SYNTHESIZED_WIRE_10 .power_up = "low";
+// synopsys translate_on
+
+// Location: LCCOMB_X5_Y1_N16
+cycloneiii_lcell_comb \inst4|SYNTHESIZED_WIRE_12~0 (
+// Equation(s):
+// \inst4|SYNTHESIZED_WIRE_12~0_combout  = (\inst4|synthesized_var_for_JKFF_inst1~q  & ((\inst|synthesized_var_for_JKFF_inst2~q ) # (\inst4|synthesized_var_for_SYNTHESIZED_WIRE_10~q )))
+
+	.dataa(gnd),
+	.datab(\inst|synthesized_var_for_JKFF_inst2~q ),
+	.datac(\inst4|synthesized_var_for_SYNTHESIZED_WIRE_10~q ),
+	.datad(\inst4|synthesized_var_for_JKFF_inst1~q ),
+	.cin(gnd),
+	.combout(\inst4|SYNTHESIZED_WIRE_12~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \inst4|SYNTHESIZED_WIRE_12~0 .lut_mask = 16'hFC00;
+defparam \inst4|SYNTHESIZED_WIRE_12~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: FF_X5_Y1_N29
+dffeas \inst4|synthesized_var_for_JKFF_inst1 (
+	.clk(!\inst4|synthesized_var_for_SYNTHESIZED_WIRE_10~q ),
+	.d(\inst4|synthesized_var_for_JKFF_inst1~0_combout ),
+	.asdata(vcc),
+	.clrn(!\inst4|SYNTHESIZED_WIRE_12~0_combout ),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(\inst4|synthesized_var_for_JKFF_inst1~q ),
+	.prn(vcc));
+// synopsys translate_off
+defparam \inst4|synthesized_var_for_JKFF_inst1 .is_wysiwyg = "true";
+defparam \inst4|synthesized_var_for_JKFF_inst1 .power_up = "low";
+// synopsys translate_on
+
+// Location: LCCOMB_X4_Y1_N30
+cycloneiii_lcell_comb \inst|SYNTHESIZED_WIRE_22 (
+// Equation(s):
+// \inst|SYNTHESIZED_WIRE_22~combout  = (\inst|synthesized_var_for_JKFF_inst2~q  & ((\inst4|synthesized_var_for_JKFF_inst1~q ) # ((\inst|synthesized_var_for_JKFF_inst3~q  & \inst|synthesized_var_for_SYNTHESIZED_WIRE_20~q )))) # 
+// (!\inst|synthesized_var_for_JKFF_inst2~q  & (\inst|synthesized_var_for_JKFF_inst3~q  & (\inst|synthesized_var_for_SYNTHESIZED_WIRE_20~q )))
+
+	.dataa(\inst|synthesized_var_for_JKFF_inst2~q ),
+	.datab(\inst|synthesized_var_for_JKFF_inst3~q ),
+	.datac(\inst|synthesized_var_for_SYNTHESIZED_WIRE_20~q ),
+	.datad(\inst4|synthesized_var_for_JKFF_inst1~q ),
+	.cin(gnd),
+	.combout(\inst|SYNTHESIZED_WIRE_22~combout ),
+	.cout());
+// synopsys translate_off
+defparam \inst|SYNTHESIZED_WIRE_22 .lut_mask = 16'hEAC0;
+defparam \inst|SYNTHESIZED_WIRE_22 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+// Location: FF_X4_Y1_N25
+dffeas \inst|synthesized_var_for_JKFF_inst52 (
+	.clk(\CLK~input_o ),
+	.d(\inst|synthesized_var_for_JKFF_inst52~feeder_combout ),
+	.asdata(vcc),
+	.clrn(!\inst|SYNTHESIZED_WIRE_22~combout ),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.q(\inst|synthesized_var_for_JKFF_inst52~q ),
+	.prn(vcc));
+// synopsys translate_off
+defparam \inst|synthesized_var_for_JKFF_inst52 .is_wysiwyg = "true";
+defparam \inst|synthesized_var_for_JKFF_inst52 .power_up = "low";
+// synopsys translate_on
+
+assign A0 = \A0~output_o ;
+
+assign A1 = \A1~output_o ;
+
+assign A2 = \A2~output_o ;
+
+assign A3 = \A3~output_o ;
+
+assign A4 = \A4~output_o ;
+
+assign A5 = \A5~output_o ;
+
+endmodule

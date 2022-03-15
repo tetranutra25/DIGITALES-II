@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\VHDL\TercerCorte\ModOcho\simulation\qsim
+vModOcho
+Z1 I_W<7hm8Nd`iUheiYK_^ao1
+Z2 VN>jW7kD;9@R8[_6VU0Bn13
+Z3 dC:\VHDL\TercerCorte\ModOcho\simulation\qsim
+Z4 w1646682440
+Z5 8ModOcho.vo
+Z6 FModOcho.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|ModOcho.vo|
+Z9 o-work work -O0
+Z10 n@mod@ocho
+!i10b 1
+Z11 !s100 Q?XnJmCzbHY@TjIY=:9ZU0
+!s85 0
+Z12 !s108 1646682441.221000
+Z13 !s107 ModOcho.vo|
+!s101 -O0
+vModOcho_vlg_check_tst
+!i10b 1
+!s100 FEAVBFE3mk@m34]Vd5cQj2
+I<McdQRGjm[8BJ?0a4KjkT3
+Z14 VkS>BU>Vibc[RbZ;_T]F;W1
+R3
+Z15 w1646682439
+Z16 8ModOcho.vt
+Z17 FModOcho.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z18 !s108 1646682441.268000
+Z19 !s107 ModOcho.vt|
+Z20 !s90 -work|work|ModOcho.vt|
+!s101 -O0
+R9
+Z21 n@mod@ocho_vlg_check_tst
+vModOcho_vlg_sample_tst
+!i10b 1
+!s100 J[9NfWENd:<LVfbg_cVhX1
+I5`[jA>7J7WNPM]MdK4`XB3
+VUP5Om_I5:EJ>JSi0SjCF^0
+R3
+R15
+R16
+R17
+L0 29
+R7
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R9
+Z22 n@mod@ocho_vlg_sample_tst
+vModOcho_vlg_vec_tst
+!i10b 1
+!s100 0X=fU@KCnm=OLiI[9NI?Y1
+ILNFP]]^iS2KYBj0OS4RAd1
+Z23 V9h6eEaJCi3ZY`nECOVMMT2
+R3
+R15
+R16
+R17
+L0 208
+R7
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R9
+Z24 n@mod@ocho_vlg_vec_tst

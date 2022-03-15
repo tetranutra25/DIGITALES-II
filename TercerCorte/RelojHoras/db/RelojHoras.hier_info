@@ -1,0 +1,26 @@
+|RelojHoras
+A0 <= HorasTruncadoDiez:inst.Q0
+CLK => HorasTruncadoDiez:inst.CLK
+A1 <= HorasTruncadoDiez:inst.Q1
+A2 <= HorasTruncadoDiez:inst.Q2
+A3 <= HorasTruncadoDiez:inst.Q3
+A4 <= HorasTruncadoTres:inst4.Q0
+A5 <= HorasTruncadoTres:inst4.Q1
+
+
+|RelojHoras|HorasTruncadoDiez:inst
+CLK => synthesized_var_for_JKFF_inst52.CLK
+CLR => SYNTHESIZED_WIRE_22.IN1
+Q0 <= synthesized_var_for_JKFF_inst52.DB_MAX_OUTPUT_PORT_TYPE
+Q1 <= synthesized_var_for_SYNTHESIZED_WIRE_20.DB_MAX_OUTPUT_PORT_TYPE
+Q2 <= synthesized_var_for_JKFF_inst2.DB_MAX_OUTPUT_PORT_TYPE
+Q3 <= synthesized_var_for_JKFF_inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|RelojHoras|HorasTruncadoTres:inst4
+CLK => synthesized_var_for_SYNTHESIZED_WIRE_10.CLK
+pin_name1 => SYNTHESIZED_WIRE_12.IN1
+Q0 <= synthesized_var_for_SYNTHESIZED_WIRE_10.DB_MAX_OUTPUT_PORT_TYPE
+Q1 <= synthesized_var_for_JKFF_inst1.DB_MAX_OUTPUT_PORT_TYPE
+
+

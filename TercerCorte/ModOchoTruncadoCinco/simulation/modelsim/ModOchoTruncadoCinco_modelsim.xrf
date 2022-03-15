@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/VHDL/TercerCorte/ModOchoTruncadoCinco/ModOchoTruncadoCinco.bdf
+source_file = 1, C:/VHDL/TercerCorte/ModOchoTruncadoCinco/Waveform.vwf
+source_file = 1, C:/VHDL/TercerCorte/ModOchoTruncadoCinco/db/ModOchoTruncadoCinco.cbx.xml
+design_name = ModOchoTruncadoCinco
+instance = comp, \Q0~output , Q0~output, ModOchoTruncadoCinco, 1
+instance = comp, \Q1~output , Q1~output, ModOchoTruncadoCinco, 1
+instance = comp, \Q2~output , Q2~output, ModOchoTruncadoCinco, 1
+instance = comp, \CLK~input , CLK~input, ModOchoTruncadoCinco, 1
+instance = comp, \inst52~0 , inst52~0, ModOchoTruncadoCinco, 1
+instance = comp, \inst52~feeder , inst52~feeder, ModOchoTruncadoCinco, 1
+instance = comp, \inst2~0 , inst2~0, ModOchoTruncadoCinco, 1
+instance = comp, \inst1~0 , inst1~0, ModOchoTruncadoCinco, 1
+instance = comp, \inst1~feeder , inst1~feeder, ModOchoTruncadoCinco, 1

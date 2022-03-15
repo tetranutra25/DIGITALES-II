@@ -1,0 +1,365 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'CLK'
+Slack : 0.006
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'ModOchoTruncadoSeis:inst2|synthesized_var_for_JKFF_inst52'
+Slack : 0.110
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_SYNTHESIZED_WIRE_19'
+Slack : 0.132
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_JKFF_inst52'
+Slack : 0.239
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_JKFF_inst2'
+Slack : 0.317
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'ModOchoTruncadoSeis:inst2|synthesized_var_for_SYNTHESIZED_WIRE_14'
+Slack : 0.317
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_SYNTHESIZED_WIRE_19'
+Slack : -0.087
+TNS   : -0.108
+
+Type  : Slow 1200mV 85C Model Hold 'CLK'
+Slack : -0.045
+TNS   : -0.045
+
+Type  : Slow 1200mV 85C Model Hold 'ModOchoTruncadoSeis:inst2|synthesized_var_for_JKFF_inst52'
+Slack : 0.002
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_JKFF_inst52'
+Slack : 0.067
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_JKFF_inst2'
+Slack : 0.384
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ModOchoTruncadoSeis:inst2|synthesized_var_for_SYNTHESIZED_WIRE_14'
+Slack : 0.384
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_JKFF_inst2'
+Slack : -1.011
+TNS   : -1.011
+
+Type  : Slow 1200mV 85C Model Recovery 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_JKFF_inst52'
+Slack : -0.898
+TNS   : -0.898
+
+Type  : Slow 1200mV 85C Model Recovery 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_SYNTHESIZED_WIRE_19'
+Slack : -0.845
+TNS   : -1.690
+
+Type  : Slow 1200mV 85C Model Recovery 'ModOchoTruncadoSeis:inst2|synthesized_var_for_SYNTHESIZED_WIRE_14'
+Slack : -0.587
+TNS   : -0.587
+
+Type  : Slow 1200mV 85C Model Recovery 'ModOchoTruncadoSeis:inst2|synthesized_var_for_JKFF_inst52'
+Slack : -0.453
+TNS   : -0.453
+
+Type  : Slow 1200mV 85C Model Recovery 'CLK'
+Slack : -0.285
+TNS   : -0.285
+
+Type  : Slow 1200mV 85C Model Removal 'CLK'
+Slack : -0.923
+TNS   : -0.923
+
+Type  : Slow 1200mV 85C Model Removal 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_SYNTHESIZED_WIRE_19'
+Slack : 0.039
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ModOchoTruncadoSeis:inst2|synthesized_var_for_JKFF_inst52'
+Slack : 0.282
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_JKFF_inst52'
+Slack : 0.342
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ModOchoTruncadoSeis:inst2|synthesized_var_for_SYNTHESIZED_WIRE_14'
+Slack : 0.436
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_JKFF_inst2'
+Slack : 0.461
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -4.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_SYNTHESIZED_WIRE_19'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_JKFF_inst2'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_JKFF_inst52'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ModOchoTruncadoSeis:inst2|synthesized_var_for_JKFF_inst52'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ModOchoTruncadoSeis:inst2|synthesized_var_for_SYNTHESIZED_WIRE_14'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Setup 'CLK'
+Slack : 0.151
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'ModOchoTruncadoSeis:inst2|synthesized_var_for_JKFF_inst52'
+Slack : 0.161
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_SYNTHESIZED_WIRE_19'
+Slack : 0.172
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_JKFF_inst52'
+Slack : 0.255
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_JKFF_inst2'
+Slack : 0.398
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'ModOchoTruncadoSeis:inst2|synthesized_var_for_SYNTHESIZED_WIRE_14'
+Slack : 0.398
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CLK'
+Slack : -0.132
+TNS   : -0.132
+
+Type  : Slow 1200mV 0C Model Hold 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_SYNTHESIZED_WIRE_19'
+Slack : -0.098
+TNS   : -0.113
+
+Type  : Slow 1200mV 0C Model Hold 'ModOchoTruncadoSeis:inst2|synthesized_var_for_JKFF_inst52'
+Slack : -0.001
+TNS   : -0.001
+
+Type  : Slow 1200mV 0C Model Hold 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_JKFF_inst52'
+Slack : 0.057
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_JKFF_inst2'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ModOchoTruncadoSeis:inst2|synthesized_var_for_SYNTHESIZED_WIRE_14'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_JKFF_inst2'
+Slack : -0.799
+TNS   : -0.799
+
+Type  : Slow 1200mV 0C Model Recovery 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_JKFF_inst52'
+Slack : -0.705
+TNS   : -0.705
+
+Type  : Slow 1200mV 0C Model Recovery 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_SYNTHESIZED_WIRE_19'
+Slack : -0.669
+TNS   : -1.327
+
+Type  : Slow 1200mV 0C Model Recovery 'ModOchoTruncadoSeis:inst2|synthesized_var_for_SYNTHESIZED_WIRE_14'
+Slack : -0.422
+TNS   : -0.422
+
+Type  : Slow 1200mV 0C Model Recovery 'ModOchoTruncadoSeis:inst2|synthesized_var_for_JKFF_inst52'
+Slack : -0.304
+TNS   : -0.304
+
+Type  : Slow 1200mV 0C Model Recovery 'CLK'
+Slack : -0.102
+TNS   : -0.102
+
+Type  : Slow 1200mV 0C Model Removal 'CLK'
+Slack : -0.934
+TNS   : -0.934
+
+Type  : Slow 1200mV 0C Model Removal 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_SYNTHESIZED_WIRE_19'
+Slack : 0.017
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ModOchoTruncadoSeis:inst2|synthesized_var_for_JKFF_inst52'
+Slack : 0.255
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_JKFF_inst52'
+Slack : 0.304
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ModOchoTruncadoSeis:inst2|synthesized_var_for_SYNTHESIZED_WIRE_14'
+Slack : 0.390
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_JKFF_inst2'
+Slack : 0.405
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -4.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_SYNTHESIZED_WIRE_19'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_JKFF_inst2'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_JKFF_inst52'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ModOchoTruncadoSeis:inst2|synthesized_var_for_JKFF_inst52'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ModOchoTruncadoSeis:inst2|synthesized_var_for_SYNTHESIZED_WIRE_14'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Setup 'CLK'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ModOchoTruncadoSeis:inst2|synthesized_var_for_JKFF_inst52'
+Slack : 0.306
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_SYNTHESIZED_WIRE_19'
+Slack : 0.319
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_JKFF_inst52'
+Slack : 0.393
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_JKFF_inst2'
+Slack : 0.624
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ModOchoTruncadoSeis:inst2|synthesized_var_for_SYNTHESIZED_WIRE_14'
+Slack : 0.624
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_SYNTHESIZED_WIRE_19'
+Slack : -0.042
+TNS   : -0.080
+
+Type  : Fast 1200mV 0C Model Hold 'ModOchoTruncadoSeis:inst2|synthesized_var_for_JKFF_inst52'
+Slack : -0.023
+TNS   : -0.023
+
+Type  : Fast 1200mV 0C Model Hold 'CLK'
+Slack : -0.008
+TNS   : -0.008
+
+Type  : Fast 1200mV 0C Model Hold 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_JKFF_inst52'
+Slack : 0.010
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_JKFF_inst2'
+Slack : 0.206
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ModOchoTruncadoSeis:inst2|synthesized_var_for_SYNTHESIZED_WIRE_14'
+Slack : 0.206
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_SYNTHESIZED_WIRE_19'
+Slack : -0.281
+TNS   : -0.311
+
+Type  : Fast 1200mV 0C Model Recovery 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_JKFF_inst2'
+Slack : -0.129
+TNS   : -0.129
+
+Type  : Fast 1200mV 0C Model Recovery 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_JKFF_inst52'
+Slack : -0.065
+TNS   : -0.065
+
+Type  : Fast 1200mV 0C Model Recovery 'CLK'
+Slack : 0.003
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'ModOchoTruncadoSeis:inst2|synthesized_var_for_SYNTHESIZED_WIRE_14'
+Slack : 0.114
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'ModOchoTruncadoSeis:inst2|synthesized_var_for_JKFF_inst52'
+Slack : 0.193
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'CLK'
+Slack : -0.488
+TNS   : -0.488
+
+Type  : Fast 1200mV 0C Model Removal 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_SYNTHESIZED_WIRE_19'
+Slack : 0.029
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ModOchoTruncadoSeis:inst2|synthesized_var_for_JKFF_inst52'
+Slack : 0.142
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_JKFF_inst52'
+Slack : 0.188
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ModOchoTruncadoSeis:inst2|synthesized_var_for_SYNTHESIZED_WIRE_14'
+Slack : 0.232
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_JKFF_inst2'
+Slack : 0.256
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -4.096
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_SYNTHESIZED_WIRE_19'
+Slack : -1.000
+TNS   : -2.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_JKFF_inst2'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ModDieciseisTruncadoDiez:inst|synthesized_var_for_JKFF_inst52'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ModOchoTruncadoSeis:inst2|synthesized_var_for_JKFF_inst52'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ModOchoTruncadoSeis:inst2|synthesized_var_for_SYNTHESIZED_WIRE_14'
+Slack : -1.000
+TNS   : -1.000
+
+------------------------------------------------------------

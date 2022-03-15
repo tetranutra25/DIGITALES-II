@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\VHDL\TercerCorte\ModOchoTruncadoCinco\simulation\qsim
+vModOchoTruncadoCinco
+Z1 IDhVDhJGY5R]S9?S00E8hc2
+Z2 V0kf2;1D[735KFFK`ajVb:1
+Z3 dC:\VHDL\TercerCorte\ModOchoTruncadoCinco\simulation\qsim
+Z4 w1646682282
+Z5 8ModOchoTruncadoCinco.vo
+Z6 FModOchoTruncadoCinco.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@mod@ocho@truncado@cinco
+!i10b 1
+Z10 !s100 zChoV9z`o`IjW]8f<cXVQ3
+!s85 0
+Z11 !s108 1646682283.634000
+Z12 !s107 ModOchoTruncadoCinco.vo|
+Z13 !s90 -work|work|ModOchoTruncadoCinco.vo|
+!s101 -O0
+vModOchoTruncadoCinco_vlg_check_tst
+!i10b 1
+!s100 @FcOJWlZ`oR;>HmCFM^F91
+Ie89f:<LbCXAW8iY<zO7Cc3
+VDWezTG?5jLB?OUO1@YeB]3
+R3
+R4
+Z14 8ModOchoTruncadoCinco.vt
+Z15 FModOchoTruncadoCinco.vt
+L0 57
+R7
+r1
+!s85 0
+31
+Z16 !s108 1646682283.696000
+Z17 !s107 ModOchoTruncadoCinco.vt|
+Z18 !s90 -work|work|ModOchoTruncadoCinco.vt|
+!s101 -O0
+R8
+n@mod@ocho@truncado@cinco_vlg_check_tst
+vModOchoTruncadoCinco_vlg_sample_tst
+!i10b 1
+!s100 ZfSknhLIOAjj>YLN[IK592
+IS>?fC[E8OhPZ_:_Via=bE2
+VIRaSmWBgMRCn`R0eBQCN=3
+R3
+R4
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+n@mod@ocho@truncado@cinco_vlg_sample_tst
+vModOchoTruncadoCinco_vlg_vec_tst
+!i10b 1
+!s100 i8nYYfmbYaO::;oTDN`Lj2
+Ib@^`Y2zhI<NBj74mkEPMB3
+Vn5]Y:FBCkho3XHfoROJ:D2
+R3
+R4
+R14
+R15
+L0 206
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+n@mod@ocho@truncado@cinco_vlg_vec_tst

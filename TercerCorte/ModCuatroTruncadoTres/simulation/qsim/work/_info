@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\VHDL\TercerCorte\ModCuatroTruncadoTres\simulation\qsim
+vModCuatroTruncadoTres
+Z1 I_M05^b0T3B[727o3RmDnc1
+Z2 VM7LZzhz3V6SJ?ZCkhUS?R1
+Z3 dC:\VHDL\TercerCorte\ModCuatroTruncadoTres\simulation\qsim
+Z4 w1646684037
+Z5 8ModCuatroTruncadoTres.vo
+Z6 FModCuatroTruncadoTres.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|ModCuatroTruncadoTres.vo|
+Z9 o-work work -O0
+Z10 n@mod@cuatro@truncado@tres
+!i10b 1
+Z11 !s100 `@e5>nfhhh52j[Xm4zcSi2
+!s85 0
+Z12 !s108 1646684038.279000
+Z13 !s107 ModCuatroTruncadoTres.vo|
+!s101 -O0
+vModCuatroTruncadoTres_vlg_check_tst
+!i10b 1
+!s100 HjOKR>EWjU3bf<Nzk5FSE3
+ILf^F@N[41[H6T8:=jVXhA1
+Z14 V_EbNXB88lEzBcK24J5UE:2
+R3
+Z15 w1646684036
+Z16 8ModCuatroTruncadoTres.vt
+Z17 FModCuatroTruncadoTres.vt
+L0 57
+R7
+r1
+!s85 0
+31
+Z18 !s108 1646684038.326000
+Z19 !s107 ModCuatroTruncadoTres.vt|
+Z20 !s90 -work|work|ModCuatroTruncadoTres.vt|
+!s101 -O0
+R9
+Z21 n@mod@cuatro@truncado@tres_vlg_check_tst
+vModCuatroTruncadoTres_vlg_sample_tst
+!i10b 1
+!s100 OakcPOh?i7f[<3M^T]O0]2
+IEf>A_SH5=aM@U>2KG<E4U0
+V4^A4Z>ll=NF2nNNDDc>Pc0
+R3
+R15
+R16
+R17
+L0 29
+R7
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R9
+Z22 n@mod@cuatro@truncado@tres_vlg_sample_tst
+vModCuatroTruncadoTres_vlg_vec_tst
+!i10b 1
+!s100 Xmm?MZDo9l;>_FDVRQd863
+I]9T4dIjWLoH]m@D43VAzQ1
+Z23 V<`@OLRW1JjQ3a[R8aB`N60
+R3
+R15
+R16
+R17
+L0 179
+R7
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R9
+Z24 n@mod@cuatro@truncado@tres_vlg_vec_tst

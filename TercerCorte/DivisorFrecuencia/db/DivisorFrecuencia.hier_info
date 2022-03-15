@@ -1,0 +1,68 @@
+|DivisorFrecuencia
+CLK1Hz <= ModOchoTruncadoCinco:inst54.Q2
+CLk => ModDieciseisTruncadoDiez:inst.CLK
+
+
+|DivisorFrecuencia|ModOchoTruncadoCinco:inst54
+CLK => synthesized_var_for_SYNTHESIZED_WIRE_14.CLK
+Q0 <= synthesized_var_for_SYNTHESIZED_WIRE_14.DB_MAX_OUTPUT_PORT_TYPE
+Q1 <= synthesized_var_for_JKFF_inst1.DB_MAX_OUTPUT_PORT_TYPE
+Q2 <= synthesized_var_for_JKFF_inst2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DivisorFrecuencia|ModDieciseisTruncadoDiez:inst6
+CLK => synthesized_var_for_JKFF_inst52.CLK
+Q0 <= synthesized_var_for_JKFF_inst52.DB_MAX_OUTPUT_PORT_TYPE
+Q1 <= synthesized_var_for_SYNTHESIZED_WIRE_19.DB_MAX_OUTPUT_PORT_TYPE
+Q2 <= synthesized_var_for_JKFF_inst2.DB_MAX_OUTPUT_PORT_TYPE
+Q3 <= synthesized_var_for_JKFF_inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DivisorFrecuencia|ModDieciseisTruncadoDiez:inst4
+CLK => synthesized_var_for_JKFF_inst52.CLK
+Q0 <= synthesized_var_for_JKFF_inst52.DB_MAX_OUTPUT_PORT_TYPE
+Q1 <= synthesized_var_for_SYNTHESIZED_WIRE_19.DB_MAX_OUTPUT_PORT_TYPE
+Q2 <= synthesized_var_for_JKFF_inst2.DB_MAX_OUTPUT_PORT_TYPE
+Q3 <= synthesized_var_for_JKFF_inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DivisorFrecuencia|ModDieciseisTruncadoDiez:inst2
+CLK => synthesized_var_for_JKFF_inst52.CLK
+Q0 <= synthesized_var_for_JKFF_inst52.DB_MAX_OUTPUT_PORT_TYPE
+Q1 <= synthesized_var_for_SYNTHESIZED_WIRE_19.DB_MAX_OUTPUT_PORT_TYPE
+Q2 <= synthesized_var_for_JKFF_inst2.DB_MAX_OUTPUT_PORT_TYPE
+Q3 <= synthesized_var_for_JKFF_inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DivisorFrecuencia|ModDieciseisTruncadoDiez:inst5
+CLK => synthesized_var_for_JKFF_inst52.CLK
+Q0 <= synthesized_var_for_JKFF_inst52.DB_MAX_OUTPUT_PORT_TYPE
+Q1 <= synthesized_var_for_SYNTHESIZED_WIRE_19.DB_MAX_OUTPUT_PORT_TYPE
+Q2 <= synthesized_var_for_JKFF_inst2.DB_MAX_OUTPUT_PORT_TYPE
+Q3 <= synthesized_var_for_JKFF_inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DivisorFrecuencia|ModDieciseisTruncadoDiez:inst3
+CLK => synthesized_var_for_JKFF_inst52.CLK
+Q0 <= synthesized_var_for_JKFF_inst52.DB_MAX_OUTPUT_PORT_TYPE
+Q1 <= synthesized_var_for_SYNTHESIZED_WIRE_19.DB_MAX_OUTPUT_PORT_TYPE
+Q2 <= synthesized_var_for_JKFF_inst2.DB_MAX_OUTPUT_PORT_TYPE
+Q3 <= synthesized_var_for_JKFF_inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DivisorFrecuencia|ModDieciseisTruncadoDiez:inst1
+CLK => synthesized_var_for_JKFF_inst52.CLK
+Q0 <= synthesized_var_for_JKFF_inst52.DB_MAX_OUTPUT_PORT_TYPE
+Q1 <= synthesized_var_for_SYNTHESIZED_WIRE_19.DB_MAX_OUTPUT_PORT_TYPE
+Q2 <= synthesized_var_for_JKFF_inst2.DB_MAX_OUTPUT_PORT_TYPE
+Q3 <= synthesized_var_for_JKFF_inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DivisorFrecuencia|ModDieciseisTruncadoDiez:inst
+CLK => synthesized_var_for_JKFF_inst52.CLK
+Q0 <= synthesized_var_for_JKFF_inst52.DB_MAX_OUTPUT_PORT_TYPE
+Q1 <= synthesized_var_for_SYNTHESIZED_WIRE_19.DB_MAX_OUTPUT_PORT_TYPE
+Q2 <= synthesized_var_for_JKFF_inst2.DB_MAX_OUTPUT_PORT_TYPE
+Q3 <= synthesized_var_for_JKFF_inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,9 @@
+|HorasTruncadoDiez
+Q0 <= inst52.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst4.IN0
+CLK => inst52.CLK
+Q1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+Q2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+Q3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+

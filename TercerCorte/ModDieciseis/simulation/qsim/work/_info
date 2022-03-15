@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\VHDL\TercerCorte\ModDieciseis\simulation\qsim
+vModDieciseis
+Z1 IoWNW=5_dmA[l?an5oV7E93
+Z2 VTzNh4_b?X@cgY2KgXPD]Y1
+Z3 dC:\VHDL\TercerCorte\ModDieciseis\simulation\qsim
+Z4 w1646683020
+Z5 8ModDieciseis.vo
+Z6 FModDieciseis.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 n@mod@dieciseis
+!i10b 1
+Z10 !s100 mT@J4aUFE`>4Mgzh2J=Na0
+!s85 0
+Z11 !s108 1646683021.195000
+Z12 !s107 ModDieciseis.vo|
+Z13 !s90 -work|work|ModDieciseis.vo|
+!s101 -O0
+vModDieciseis_vlg_check_tst
+!i10b 1
+!s100 2gCdj5]mkgJeVfehE2AUL0
+I;Ta?Kz]Q[Wn66RTb7J;<33
+V6K6Di3Fh[M=jj__zJd=H43
+R3
+Z14 w1646683019
+Z15 8ModDieciseis.vt
+Z16 FModDieciseis.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z17 !s108 1646683021.242000
+Z18 !s107 ModDieciseis.vt|
+Z19 !s90 -work|work|ModDieciseis.vt|
+!s101 -O0
+R8
+n@mod@dieciseis_vlg_check_tst
+vModDieciseis_vlg_sample_tst
+!i10b 1
+!s100 eJPLaWzEC0]I<9NPDCWIm1
+I4O@c4Z20meA;3oj_0bh<P3
+VAWZFCdgX7@ILEg6ci6<z@2
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@mod@dieciseis_vlg_sample_tst
+vModDieciseis_vlg_vec_tst
+!i10b 1
+!s100 ^kBGkZTa=R6jkoKmIeOh_2
+IfJjco=;OPOGjbXblHoFSl1
+V?Q5OTY5G>8Bg06Hh2^>bn0
+R3
+R14
+R15
+R16
+L0 235
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+n@mod@dieciseis_vlg_vec_tst

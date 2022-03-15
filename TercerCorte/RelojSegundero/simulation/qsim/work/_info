@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\VHDL\TercerCorte\RelojSegundero\simulation\qsim
+vRelojSegundero
+Z1 IGWJbhcb^n;`OKM;0l>28f2
+Z2 VIH6YU3CZLdPS1XG>fg[8U2
+Z3 dC:\VHDL\TercerCorte\RelojSegundero\simulation\qsim
+Z4 w1646775427
+Z5 8RelojSegundero.vo
+Z6 FRelojSegundero.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|RelojSegundero.vo|
+Z9 o-work work -O0
+Z10 n@reloj@segundero
+!i10b 1
+Z11 !s100 z@Ej`11^F=>Ckd;n;MdWF0
+!s85 0
+Z12 !s108 1646775428.497000
+Z13 !s107 RelojSegundero.vo|
+!s101 -O0
+vRelojSegundero_vlg_check_tst
+!i10b 1
+!s100 nnHDljn_8acJieRTi8ohn2
+I:8]?el_h5UT;o06L8?c@K3
+Z14 VNjzzFIB6DQ103m:K=P[Xb0
+R3
+R4
+Z15 8RelojSegundero.vt
+Z16 FRelojSegundero.vt
+L0 57
+R7
+r1
+!s85 0
+31
+Z17 !s108 1646775428.560000
+Z18 !s107 RelojSegundero.vt|
+Z19 !s90 -work|work|RelojSegundero.vt|
+!s101 -O0
+R9
+Z20 n@reloj@segundero_vlg_check_tst
+vRelojSegundero_vlg_sample_tst
+!i10b 1
+Z21 !s100 @Ji?R>MOMo^FFJe^YYc2T0
+Z22 IC^J`GeS0TTlBL@[AG4n>E1
+Z23 VN]i[dDMPJDG@Y::B7ndlH0
+R3
+R4
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9
+Z24 n@reloj@segundero_vlg_sample_tst
+vRelojSegundero_vlg_vec_tst
+!i10b 1
+Z25 !s100 jnZfi`8e3_KFW6Y5i;WZA3
+Z26 IKM=]H`?][R>_[^_AchOf:1
+Z27 Vk14mBjkAobAGAhn9^_fB`0
+R3
+R4
+R15
+R16
+Z28 L0 314
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R9
+Z29 n@reloj@segundero_vlg_vec_tst
